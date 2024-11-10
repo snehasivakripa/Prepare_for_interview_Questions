@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class kidsWithGreatestCandies {
+public class KidsWithGreatestCandies {
 
     private List<Boolean> greatestCandies(int[] candies, int extraCandies) {
 
@@ -22,7 +22,7 @@ public class kidsWithGreatestCandies {
     public static void main(String[] args) {
         int[] arr = {2,3,5,1,3};
         int extraCandies=3;
-        kidsWithGreatestCandies kids=new kidsWithGreatestCandies();
+        KidsWithGreatestCandies kids=new KidsWithGreatestCandies();
         List<Boolean> output=kids.greatestCandies(arr,extraCandies);
         System.out.println(output);
     }
