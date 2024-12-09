@@ -7,7 +7,7 @@ public class SpiralMatrix {
 
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result= new ArrayList<>();
-        if(matrix.length==0){
+        if(matrix.length==0 || matrix[0].length==0){
             return result;
         }
         int left=0, right= matrix[0].length-1, top=0, bottom=matrix.length-1;
