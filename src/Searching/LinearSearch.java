@@ -1,4 +1,4 @@
-package Search;
+package Searching;
 
 public class LinearSearch {
     public boolean exist(int[] arr,int num){
