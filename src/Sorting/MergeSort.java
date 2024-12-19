@@ -10,7 +10,8 @@ public class MergeSort {
         }
     }
 
-    private void mergeSortDivision(int[] arr,int[] dup, int low, int high) {
+    private void
+    mergeSortDivision(int[] arr,int[] dup, int low, int high) {
         if(low<high){
             int mid=low + (high - low) / 2;
             mergeSortDivision(arr,dup,low,mid);
